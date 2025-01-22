@@ -37,13 +37,13 @@ const OurMission = () => {
                         />
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
-                        FundFusion is committed to empowering businesses, driving innovation, and closing the gap between opportunities and challenges. Our goal is to build a vibrant ecosystem where ideas thrive, communities unite, and sustainable growth becomes achievable.
+                        SeedSphere is committed to empowering businesses, driving innovation, and closing the gap between opportunities and challenges. Our goal is to build a vibrant ecosystem where ideas thrive, communities unite, and sustainable growth becomes achievable.
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
                         We believe in the strength of teamwork and creativity to create a lasting difference. Join us on this inspiring journey as we unite to tackle challenges and unlock opportunities for growth and achievement.
                     </p>
                     <div className="mt-6">
-                        <Link to={'/campaigns'} className="px-6 py-2 text-md font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-indigo-400 focus:outline-none">
+                        <Link to={'/campaigns'} className="px-6 py-2 text-md font-semibold text-white bg-rose-600 hover:bg-rose-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-rose-400 focus:outline-none">
                             Get Involved
                         </Link>
                     </div>

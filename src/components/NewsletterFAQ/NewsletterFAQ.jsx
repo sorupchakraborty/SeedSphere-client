@@ -4,8 +4,8 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const NewsletterFAQ = () => {
     const [faqs, setFaqs] = useState([
         {
-            question: "What is FundFusion?",
-            answer: "FundFusion is a platform dedicated to empowering businesses, fostering innovation, and creating sustainable solutions.",
+            question: "What is SeedSphere?",
+            answer: "SeedSphere is a platform dedicated to empowering businesses, fostering innovation, and creating sustainable solutions.",
             isOpen: false,
         },
         {
@@ -27,7 +27,7 @@ const NewsletterFAQ = () => {
     };
 
     return (
-        <section className="py-20 px-6 bg-gradient-to-b from-indigo-300 via-indigo-200 to-indigo-100 text-white dark:from-indigo-950 dark:via-indigo-800 dark:to-indigo-700">
+        <section className="py-20 px-6 bg-gradient-to-b from-rose-300 via-rose-200 to-rose-100 text-white dark:from-rose-950 dark:via-rose-800 dark:to-rose-700">
             <div className="max-w-7xl mx-auto">
                 {/* Newsletter Section */}
                 <div className="text-center">
@@ -45,7 +45,7 @@ const NewsletterFAQ = () => {
                             />
                             <button
                                 type="submit"
-                                className="px-8 py-3 text-lg font-semibold bg-indigo-900 dark:bg-indigo-400 hover:bg-indigo-800 dark:hover:bg-indigo-500 rounded-lg shadow-lg dark:text-black transition-transform transform focus:ring-4 focus:ring-indigo-300 focus:outline-none"
+                                className="px-8 py-3 text-lg font-semibold bg-rose-900 dark:bg-rose-400 hover:bg-rose-800 dark:hover:bg-rose-500 rounded-lg shadow-lg dark:text-black transition-transform transform focus:ring-4 focus:ring-rose-300 focus:outline-none"
                             >
                                 Subscribe
                             </button>
@@ -69,7 +69,7 @@ const NewsletterFAQ = () => {
                                     className="w-full flex justify-between items-center text-lg font-semibold text-gray-800 dark:text-white focus:outline-none"
                                 >
                                     {faq.question}
-                                    <span className="text-indigo-500">
+                                    <span className="text-rose-500">
                                         {faq.isOpen ? "-" : "+"}
                                     </span>
                                 </button>

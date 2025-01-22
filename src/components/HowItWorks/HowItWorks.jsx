@@ -7,7 +7,7 @@ const HowItWorks = () => {
       number: 1,
       title: "Create a Campaign",
       description: "Start your donation drive by creating a campaign.",
-      icon: <FaRegLightbulb size={28} className="text-indigo-500" />,
+      icon: <FaRegLightbulb size={28} className="text-rose-500" />,
     },
     {
       number: 2,
@@ -24,7 +24,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-12 md:py-16 bg-gradient-to-r from-indigo-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900 dark:text-white">
+    <section className="py-12 md:py-16 bg-gradient-to-r from-rose-50 to-rose-100 dark:from-gray-800 dark:to-gray-900 dark:text-white">
       <div className="px-4 max-w-7xl mx-auto">
         {/* Section Heading */}
         <SectionTitle
@@ -40,7 +40,7 @@ const HowItWorks = () => {
             >
               {/* Connecting Line */}
               {index !== steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-8 w-16 h-1 bg-indigo-300 dark:bg-indigo-500"></div>
+                <div className="hidden md:block absolute top-1/2 -right-8 w-16 h-1 bg-rose-300 dark:bg-rose-500"></div>
               )}
               {/* Step Icon */}
               <div className="w-16 h-16 flex items-center justify-center rounded-full bg-white dark:bg-gray-700 shadow-lg">
@@ -51,7 +51,7 @@ const HowItWorks = () => {
                 Step {step.number}
               </div>
               {/* Step Title */}
-              <h3 className="text-xl font-semibold text-indigo-700 dark:text-indigo-400">
+              <h3 className="text-xl font-semibold text-rose-700 dark:text-rose-400">
                 {step.title}
               </h3>
               {/* Step Description */}

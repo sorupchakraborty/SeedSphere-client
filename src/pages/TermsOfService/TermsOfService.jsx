@@ -6,14 +6,14 @@ const TermsOfService = () => {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl lg:text-4xl font-bold mb-6">Terms of Service</h1>
         <p className="mb-4 text-lg">
-          Welcome to FundFusion! By accessing or using our platform, you agree to
+          Welcome to SeedSphere! By accessing or using our platform, you agree to
           abide by the following Terms of Service. Please read them carefully.
         </p>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
           <p>
-            By using FundFusion, you agree to comply with and be legally bound by
+            By using SeedSphere, you agree to comply with and be legally bound by
             these Terms of Service, as well as our Privacy Policy. If you do not
             agree to any of these terms, you must not use our platform.
           </p>
@@ -23,7 +23,7 @@ const TermsOfService = () => {
           <h2 className="text-2xl font-semibold mb-4">2. Eligibility</h2>
           <p>
             You must be at least 18 years old or have the consent of a parent or
-            guardian to use our services. By using FundFusion, you represent and
+            guardian to use our services. By using SeedSphere, you represent and
             warrant that you meet this requirement.
           </p>
         </section>
@@ -56,7 +56,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">5. Limitation of Liability</h2>
           <p>
-            FundFusion is not liable for any direct, indirect, incidental,
+            SeedSphere is not liable for any direct, indirect, incidental,
             consequential, or punitive damages arising from your use of the
             platform. All transactions are at your own risk.
           </p>
@@ -74,7 +74,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">7. Changes to Terms</h2>
           <p>
-            FundFusion may update these Terms of Service from time to time. Any
+            SeedSphere may update these Terms of Service from time to time. Any
             changes will be posted on this page with an updated effective date.
             Continued use of the platform constitutes acceptance of the updated
             terms.
@@ -86,10 +86,10 @@ const TermsOfService = () => {
             If you have any questions about these Terms of Service, please
             contact us at{" "}
             <a
-              href="mailto:support@FundFusion.com"
-              className="text-indigo-500 hover:text-indigo-400"
+              href="mailto:support@SeedSphere.com"
+              className="text-rose-500 hover:text-rose-400"
             >
-              support@FundFusion.com
+              support@SeedSphere.com
             </a>
             .
           </p>

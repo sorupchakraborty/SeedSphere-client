@@ -61,7 +61,7 @@ const AddCampaignPage = () => {
   return (
     <div className="dark:bg-gray-900 min-h-screen">
       <Helmet>
-        <title>FundFusion | Add Campaign</title>
+        <title>SeedSphere | Add Campaign</title>
       </Helmet>
       <div className="max-w-4xl mx-auto mt-10 px-4 py-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
         <SectionTitle
@@ -180,7 +180,7 @@ const AddCampaignPage = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-indigo-600 dark:bg-indigo-500 text-white font-bold rounded-lg hover:bg-blue-700 dark:hover:bg-indigo-600 focus:outline-none"
+            className="w-full py-2 px-4 bg-rose-600 dark:bg-rose-500 text-white font-bold rounded-lg hover:bg-blue-700 dark:hover:bg-rose-600 focus:outline-none"
           >
             Add Campaign
           </button>

@@ -27,7 +27,7 @@ const UpdateProfilePage = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <Helmet>
-                <title>FundFusion | Update Profile</title>
+                <title>SeedSphere | Update Profile</title>
             </Helmet>
             <form
                 onSubmit={handleUpdateProfile}

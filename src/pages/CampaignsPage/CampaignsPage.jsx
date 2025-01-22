@@ -68,7 +68,7 @@ const CampaignsPage = () => {
         Cell: ({ value }) => (
           <Link
             to={`/campaigns/${value}`}
-            className="text-white rounded hover:underline px-4 py-2 bg-indigo-500"
+            className="text-white rounded hover:underline px-4 py-2 bg-rose-500"
           >
             Details
           </Link>
@@ -81,7 +81,7 @@ const CampaignsPage = () => {
   return (
     <div className="py-10">
       <Helmet>
-        <title>FundFusion | All Campaigns</title>
+        <title>SeedSphere | All Campaigns</title>
       </Helmet>
       <div className="max-w-[1600px] mx-auto px-4">
         <div className="mb-10">
