@@ -1,7 +1,7 @@
 
-
 import { useState } from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
+import img1 from '../../assets/brazil.png'
 
 const NewsletterFAQ = () => {
     const [faqs, setFaqs] = useState([
@@ -29,7 +29,7 @@ const NewsletterFAQ = () => {
     };
 
     const successStories = [
-        { name: "Clean Water Initiative", place: "Kenya", image: "clean-water.jpg" },
+        { name: "Clean Water Initiative", place: "Kenya", image: img1 },
         { name: "Solar Energy for All", place: "India", image: "solar-energy.jpg" },
         { name: "Tech for Education", place: "Brazil", image: "tech-education.jpg" },
         { name: "Healthcare Access", place: "Nigeria", image: "healthcare-access.jpg" },
