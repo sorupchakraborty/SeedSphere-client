@@ -5,7 +5,6 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
 
 const OurMission = () => {
-
     return (
         <section className="py-16 px-6 dark:bg-gray-900 bg-gray-50">
             <SectionTitle title={"Our Mission"} subtitle="Discover how simple it is to start making a difference" />
