@@ -1,7 +1,10 @@
 
 import { useState } from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import img1 from '../../assets/brazil.png'
+import img1 from '../../assets/kenya.png'
+import img2 from '../../assets/Wix-India.jpg'
+import img3 from '../../assets/brazil.png'
+import img4 from '../../assets/nigeria.png'
 
 const NewsletterFAQ = () => {
     const [faqs, setFaqs] = useState([
@@ -30,9 +33,9 @@ const NewsletterFAQ = () => {
 
     const successStories = [
         { name: "Clean Water Initiative", place: "Kenya", image: img1 },
-        { name: "Solar Energy for All", place: "India", image: "solar-energy.jpg" },
-        { name: "Tech for Education", place: "Brazil", image: "tech-education.jpg" },
-        { name: "Healthcare Access", place: "Nigeria", image: "healthcare-access.jpg" },
+        { name: "Solar Energy for All", place: "India", image:  img2},
+        { name: "Tech for Education", place: "Brazil", image: img3},
+        { name: "Healthcare Access", place: "Nigeria", image: img4 },   
     ];
 
     return (
