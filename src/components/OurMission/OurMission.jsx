@@ -36,7 +36,7 @@ const OurMission = () => {
                         />
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
-                        SeedSphere is committed to empowering businesses, driving innovation, and closing the gap between opportunities and challenges. Our goal is to build a vibrant ecosystem where ideas thrive, communities unite, and sustainable growth becomes achievable.
+                    SeedSphere is dedicated to empowering businesses, fostering innovation, and bridging the gap between challenges and opportunities. Our mission is to cultivate a dynamic ecosystem where ideas flourish, communities come together, and sustainable growth is within reach.
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
                     We value teamwork and creativity in making a meaningful impact. Join us on this inspiring journey as we come together to overcome challenges and create new opportunities for growth and success.
