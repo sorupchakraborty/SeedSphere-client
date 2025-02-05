@@ -27,7 +27,7 @@ const OurMission = () => {
                                 "Creating sustainable solutions for the future.",
                                 "Connecting communities through innovation.",
                             ]}
-                            loop={true} // Infinite loop
+                            loop={true} 
                             cursor
                             cursorStyle="|"
                             typeSpeed={50}
