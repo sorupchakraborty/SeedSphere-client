@@ -41,6 +41,7 @@ const Banner = () => {
                     </div>
                 </div>
 
+
                 {/* Right Content */}
                 <div className="mt-12 lg:mt-0 flex justify-center md:justify-end">
                     <div className="relative">
