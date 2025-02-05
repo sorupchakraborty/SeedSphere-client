@@ -1,6 +1,6 @@
 # SeedSphere  
 
-[SeedSphere Live Site](https://seedsphere.web.app/)  
+[SeedSphere Live Site](https://seedsphere-84512.web.app/)  
 
 *SeedSphere* is an intuitive and powerful crowdfunding platform designed to empower individuals and organizations. By connecting campaign creators with supporters, SeedSphere helps bring innovative ideas, personal goals, and community projects to life. With user-friendly features, a modern aesthetic, and a secure environment, SeedSphere ensures an exceptional experience for both campaigners and donors.
 
