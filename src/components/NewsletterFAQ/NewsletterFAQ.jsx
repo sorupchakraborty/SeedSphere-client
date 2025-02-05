@@ -41,8 +41,23 @@ const NewsletterFAQ = () => {
     return (
         <section className="py-20 px-6 bg-gradient-to-b from-rose-300 via-rose-200 to-rose-100 text-white dark:from-rose-950 dark:via-rose-800 dark:to-rose-700">
             <div className="max-w-7xl mx-auto">
+                {/* Success Stories Section */}
+                <div className="mt-12 md:mt-24">
+                    <h2 className="text-4xl font-extrabold text-center text-black dark:text-white">
+                        Success Stories
+                    </h2>
+                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {successStories.map((story, index) => (
+                            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4">
+                                <img src={story.image} alt={story.name} className="w-full h-40 object-cover rounded-md" />
+                                <h3 className="mt-4 text-lg font-semibold text-gray-800 dark:text-white">{story.name}</h3>
+                                <p className="text-sm text-gray-600 dark:text-gray-300">{story.place}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
                 {/* Newsletter Section */}
-                <div className="text-center">
+                <div className="text-center mt-10">
                     <SectionTitle
                         title="Stay Connected"
                         subtitle="Join our vibrant community by subscribing to our newsletter. Get the latest updates, exclusive content, and more directly in your inbox."
@@ -65,47 +80,9 @@ const NewsletterFAQ = () => {
                     </div>
                 </div>
 
-                {/* Success Stories Section */}
-                <div className="mt-12 md:mt-24">
-                    <h2 className="text-4xl font-extrabold text-center text-black dark:text-white">
-                        Success Stories
-                    </h2>
-                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        {successStories.map((story, index) => (
-                            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4">
-                                <img src={story.image} alt={story.name} className="w-full h-40 object-cover rounded-md" />
-                                <h3 className="mt-4 text-lg font-semibold text-gray-800 dark:text-white">{story.name}</h3>
-                                <p className="text-sm text-gray-600 dark:text-gray-300">{story.place}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+                
 
-                {/* FAQ Section */}
-                <div className="mt-12 md:mt-24">
-                    <h2 className="text-4xl font-extrabold text-center text-black dark:text-white">
-                        Frequently Asked Questions
-                    </h2>
-                    <div className="mt-10 space-y-6 max-w-3xl mx-auto">
-                        {faqs.map((faq, index) => (
-                            <div
-                                key={index}
-                                className="p-6 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-lg"
-                            >
-                                <button
-                                    onClick={() => toggleFAQ(index)}
-                                    className="w-full flex justify-between items-center text-lg font-semibold text-gray-800 dark:text-white focus:outline-none"
-                                >
-                                    {faq.question}
-                                    <span className="text-rose-500">{faq.isOpen ? "-" : "+"}</span>
-                                </button>
-                                {faq.isOpen && (
-                                    <p className="mt-3 text-gray-600 dark:text-gray-300">{faq.answer}</p>
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                </div>
+            
             </div>
         </section>
     );
