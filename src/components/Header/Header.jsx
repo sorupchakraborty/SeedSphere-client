@@ -6,6 +6,7 @@ import 'react-tooltip/dist/react-tooltip.css'
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
 import ProfileTooltip from '../ProfileTooltip/ProfileTooltip';
 
+
 const Header = () => {
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();

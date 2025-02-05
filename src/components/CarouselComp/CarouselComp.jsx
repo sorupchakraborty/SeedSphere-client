@@ -5,6 +5,7 @@ import communityProjectBanner from "../../assets/Community-bro.svg";
 import environmentalCauseBanner from "../../assets/metaverso-bro.svg";
 import { Link } from "react-router-dom";
 
+
 const CarouselComp = () => {
   const banners = [
     {

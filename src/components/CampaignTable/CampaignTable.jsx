@@ -7,6 +7,7 @@ const CampaignTable = ({ campaigns, columns }) => {
       data: campaigns,
     });
 
+    
   return (
     <div className="overflow-x-auto">
       <table
