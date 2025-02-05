@@ -29,9 +29,7 @@ const Banner = () => {
                         />
                     </div>
                     <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 text-justify">
-                        Join hands to fund the projects that inspire you. Whether it&apos;s a
-                        startup idea, a personal need, or a community project, we connect
-                        dreamers with supporters to make a difference.
+                    Come together to support projects that inspire you. Whether it's a startup venture, a personal need, or a community initiative, we bridge the gap between dreamers and supporters to create meaningful impact.
                     </p>
                     <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-start">
                         <Link to={'/add-campaign'} className="px-6 py-3 bg-rose-500 hover:bg-rose-400 text-white text-lg font-medium rounded-lg shadow-lg transition-all">
